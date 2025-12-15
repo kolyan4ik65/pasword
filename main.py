@@ -51,4 +51,4 @@ def generate_password(length, chars):
 print("Сгенерированные пароли:")
 for i in range(count):
     password = generate_password(length, chars)
-    print(f"{i + 1}. {password}")
+    print(f"{i + 1}. {password}") #Выводит пароль
